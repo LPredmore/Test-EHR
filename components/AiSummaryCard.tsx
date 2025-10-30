@@ -1,16 +1,4 @@
 
-import React, { useState, useCallback } from 'react';
-import type { Patient } from '../types';
-import { generateClinicalSummary } from '../services/geminiService';
-
-interface AiSummaryCardProps {
-  patient: Patient;
-}
-
-const SparklesIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" {...props}>
-        <path fillRule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.39-3.423 3.337c-.628.618-.278 1.71.597 1.831l4.753.39 1.83 4.401c.321.772 1.415.772 1.736 0l1.83-4.401 4.753-.39 3.423-3.337c.628-.618.278-1.71-.597-1.831l-4.753-.39L10.868 2.884Z" clipRule="evenodd" />
-    </svg>
 );
 
 
