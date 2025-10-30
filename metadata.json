@@ -1,0 +1,5 @@
+{
+  "name": "Telehealth EHR Dashboard",
+  "description": "A modern, AI-powered Electronic Health Record (EHR) dashboard for telehealth providers. It features patient vitals, medication management, appointment scheduling, and leverages the Gemini API to generate clinical summaries and provide medication suggestions.",
+  "requestFramePermissions": []
+}
